@@ -56,12 +56,7 @@ The PDF Chatbot is an application that allows users to upload PDF files and inte
 
 - The application uses the OpenAI API for generating chatbot responses. Make sure to provide a valid OpenAI API key.
 
-## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [Apache License 2.0](LICENSE).
+## Credits
 
 This application was developed using https://www.analyticsvidhya.com/blog/2023/05/build-a-chatgpt-for-pdfs-with-langchain/
