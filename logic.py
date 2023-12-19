@@ -1,10 +1,13 @@
 import os
+import gradio as gr
+import fitz
+
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import PyPDFLoader
-import fitz
+
 from PIL import Image
 
 # Global variables
