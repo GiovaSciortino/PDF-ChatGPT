@@ -26,7 +26,7 @@ The PDF Chatbot is an application that allows users to upload PDF files and inte
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ayushwattal/PDF-ChatGpt.git
+   git clone https://github.com/GiovaSciortino/PDF-ChatGPT.git
    ```
 
 2. Install the required dependencies:
@@ -40,7 +40,7 @@ The PDF Chatbot is an application that allows users to upload PDF files and inte
 1. Run the application:
 
    ```bash
-   python app.py
+   gradio app.py
    ```
 
 2. Access the application in your web browser as specified in the console.
