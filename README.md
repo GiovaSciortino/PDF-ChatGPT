@@ -37,10 +37,15 @@ The PDF Chatbot is an application that allows users to upload PDF files and inte
 
 ## Usage
 
-1. Run the application:
+1. Run the application in local:
 
    ```bash
    gradio app.py
+   ```
+
+   To create a public link, set `share=True` in `launch()` and run:
+   ```bash
+   python app.py
    ```
 
 2. Access the application in your web browser as specified in the console.
