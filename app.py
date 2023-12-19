@@ -1,5 +1,3 @@
-import gradio as gr
-import os
 from user_interface import create_demo
 from logic import set_api_key, enable_api_box, add_text, generate_response, render_file
 
