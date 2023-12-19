@@ -15,6 +15,10 @@ with demo:
     btn.upload(render_file, inputs=[btn], outputs=[show_img])
 
     # Event handler for submitting text and generating response
+    txt.submit(add_text, inputs=[chatbot, txt], outputs=[chatbot], queue=False).\
+        success(generate_response, inputs=[chatbot, txt, btn], outputs=[chatbot,txt]).\
+        success(render_file, inputs=[btn], outputs=[show_img])
+    
     submit_btn.click(add_text, inputs=[chatbot, txt], outputs=[chatbot], queue=False).\
         success(generate_response, inputs=[chatbot, txt, btn], outputs=[chatbot,txt]).\
         success(render_file, inputs=[btn], outputs=[show_img])

@@ -29,6 +29,7 @@ def create_demo():
                 text_input = gr.Textbox(
                     show_label=False,
                     placeholder="Ask your pdf?",
+                    interactive=True,
                 container=False)
 
             with gr.Column(scale=0.20):

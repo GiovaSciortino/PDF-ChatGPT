@@ -19,7 +19,7 @@ The PDF Chatbot is an application that allows users to upload PDF files and inte
 
 [Demo Video](https://youtu.be/ARVCUIxr5u0)
 
-[![Demo Video](PDF-ChatGpt.png)](https://youtu.be/ARVCUIxr5u0)
+<!--[![Demo Video](PDF-ChatGpt.png)](https://youtu.be/ARVCUIxr5u0)-->
 
 ## Installation
 
